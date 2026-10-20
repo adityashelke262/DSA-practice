@@ -3,7 +3,7 @@ public:
     int longestConsecutive(vector<int>& nums) {
         int n=nums.size();
         int longest=1;
-        int cnt=1;
+        int cnt=0;
         int lastSmallest=INT_MAX;
 
         if(n==0) return 0;
